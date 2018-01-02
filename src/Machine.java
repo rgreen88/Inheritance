@@ -1,7 +1,7 @@
 
 public class Machine {
 	
-	public String name = "Machine Type 1"; //can only be accessed in Machine class because it was made private.. making it public for access in Car
+	protected String name = "Machine Type 1"; //can only be accessed in Machine class because it was made private.. making it protected for package access in Car
 
 	public void Start(){
 		

@@ -12,7 +12,7 @@ public class Inheritance {
 		
 		car1.Start(); //inheritance from Machine class--- duplicate method in Car overrides the method inside Machine class
 		car1.wipeWindShield();
-		car1.showInfo(); //another example of inheritance.  Can't inherit private or protected variables
+		car1.showInfo(); //another example of inheritance.  Can't inherit private, but protected variables can be accessed from anywhere inside the package
 		car1.Stop(); //Inheritance from Machine class
 		
 		//Can't inherit String
